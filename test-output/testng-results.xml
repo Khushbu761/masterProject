@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-24T11:06:54 IST" name="Default suite" finished-at="2023-08-24T11:07:07 IST" duration-ms="12760">
+  <suite started-at="2023-08-24T12:33:23 IST" name="Default suite" finished-at="2023-08-24T12:33:37 IST" duration-ms="13662">
     <groups>
     </groups>
-    <test started-at="2023-08-24T11:06:54 IST" name="Default test" finished-at="2023-08-24T11:07:07 IST" duration-ms="12760">
+    <test started-at="2023-08-24T12:33:23 IST" name="Default test" finished-at="2023-08-24T12:33:37 IST" duration-ms="13662">
       <class name="Khus.Khushbu">
-        <test-method signature="GooglePixeldetails()[pri:1, instance:Khus.Khushbu@13e344d]" started-at="2023-08-24T11:06:54 IST" name="GooglePixeldetails" finished-at="2023-08-24T11:07:02 IST" duration-ms="7335" status="PASS">
+        <test-method signature="GooglePixeldetails()[pri:1, instance:Khus.Khushbu@13e344d]" started-at="2023-08-24T12:33:23 IST" name="GooglePixeldetails" finished-at="2023-08-24T12:33:31 IST" duration-ms="7878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GooglePixeldetails -->
-        <test-method signature="OpenCart()[pri:2, instance:Khus.Khushbu@13e344d]" started-at="2023-08-24T11:07:02 IST" name="OpenCart" finished-at="2023-08-24T11:07:07 IST" duration-ms="5362" status="PASS">
+        <test-method signature="OpenCart()[pri:2, instance:Khus.Khushbu@13e344d]" started-at="2023-08-24T12:33:31 IST" name="OpenCart" finished-at="2023-08-24T12:33:37 IST" duration-ms="5716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenCart -->

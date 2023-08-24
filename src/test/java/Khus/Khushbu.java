@@ -13,7 +13,7 @@ public class Khushbu
 
 	public void GooglePixeldetails() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\hp\\eclipse-workspace\\Mavennewproject\\src\\main\\resources\\chromedriver.exe");
+				"/usr/local/bin/chromedriver");
 
 		// create driver
 		WebDriver driver = new ChromeDriver();
@@ -28,7 +28,7 @@ public class Khushbu
 
 	public void OpenCart() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\hp\\eclipse-workspace\\Mavennewproject\\src\\main\\resources\\chromedriver.exe");
+				"/usr/local/bin/chromedriver");
 
 		// create driver
 		WebDriver driver = new ChromeDriver();
