@@ -3,7 +3,7 @@ package Khus;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 
@@ -13,11 +13,13 @@ public class Khushbu
 
 	public void GooglePixeldetails() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"/usr/local/bin/chromedriver");
-
-		// create driver
-		WebDriver driver = new ChromeDriver();
-
+				"C:\\Users\\hp\\eclipse-workspace\\Mavennewproject\\src\\main\\resources\\chromedriver.exe");
+		ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless"); // Run in headless mode
+        chromeOptions.addArguments("--disable-gpu"); // Disable GPU acceleration
+        
+        // Create a new ChromeDriver instance with the specified ChromeOptions
+        WebDriver driver = new ChromeDriver(chromeOptions);
 		driver.get("http://localhost:3001");
 
 		Thread.sleep(3000);
@@ -28,10 +30,14 @@ public class Khushbu
 
 	public void OpenCart() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"/usr/local/bin/chromedriver");
+				"C:\\Users\\hp\\eclipse-workspace\\Mavennewproject\\src\\main\\resources\\chromedriver.exe");
 
-		// create driver
-		WebDriver driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless"); // Run in headless mode
+        chromeOptions.addArguments("--disable-gpu"); // Disable GPU acceleration
+        
+        // Create a new ChromeDriver instance with the specified ChromeOptions
+        WebDriver driver = new ChromeDriver(chromeOptions);
 
 		driver.get("http://localhost:3001");
 
