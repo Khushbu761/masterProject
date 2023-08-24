@@ -13,7 +13,7 @@ public class Khushbu
 
 	public void GooglePixeldetails() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\hp\\eclipse-workspace\\Mavennewproject\\src\\main\\resources\\chromedriver.exe");
+				"/usr/local/bin/chromedriver");
 		ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless"); // Run in headless mode
         chromeOptions.addArguments("--disable-gpu"); // Disable GPU acceleration
@@ -30,7 +30,7 @@ public class Khushbu
 
 	public void OpenCart() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\hp\\eclipse-workspace\\Mavennewproject\\src\\main\\resources\\chromedriver.exe");
+				"/usr/local/bin/chromedriver");
 
 		ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--headless"); // Run in headless mode
