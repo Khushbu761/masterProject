@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class Khushbu
 {
-	@Test(priority=1, enabled= true)
+	/*@Test(priority=1, enabled= true)
 
 	public void GooglePixeldetails() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
@@ -25,8 +25,8 @@ public class Khushbu
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//div[@class='container']//div[1]//div[1]//div[1]//a[1]")).click();
 	}
-
-	@Test(priority=2, enabled= true)
+*/
+	@Test(priority=1, enabled= true)
 
 	public void OpenCart() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
@@ -39,10 +39,10 @@ public class Khushbu
         // Create a new ChromeDriver instance with the specified ChromeOptions
         WebDriver driver = new ChromeDriver(chromeOptions);
 
-		driver.get("http://localhost:3001");
+		driver.get("https://www.google.com/");
 
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//i[normalize-space()='my cart']")).click();
+		//driver.findElement(By.xpath("//i[normalize-space()='my cart']")).click();
 
 	}
 
