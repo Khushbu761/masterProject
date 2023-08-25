@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -23,7 +24,7 @@ public class Khushbu
 		driver.get("http://13.126.143.65:3000/");
 
 		Thread.sleep(3000);
-		//driver.findElement(By.xpath("//div[@class='container']//div[1]//div[1]//div[1]//a[1]")).click();
+		driver.findElement(By.xpath("//div[@class='container']//div[1]//div[1]//div[1]//a[1]")).click();
 	}
 
 	@Test(priority=1, enabled= true)
@@ -42,7 +43,8 @@ public class Khushbu
 		driver.get("http://13.126.143.65:3000/");
 
 		Thread.sleep(3000);
-		//driver.findElement(By.xpath("//i[normalize-space()='my cart']")).click();
+		driver.findElement(By.xpath("//i[normalize-space()='my cart']")).click();
+		Assert.fail();
 
 	}
 
