@@ -39,7 +39,7 @@ public class Khushbu
         // Create a new ChromeDriver instance with the specified ChromeOptions
         WebDriver driver = new ChromeDriver(chromeOptions);
 
-		driver.get("https://www.google.com/");
+		driver.get("http://13.126.143.65:3000/");
 
 		Thread.sleep(3000);
 		//driver.findElement(By.xpath("//i[normalize-space()='my cart']")).click();
