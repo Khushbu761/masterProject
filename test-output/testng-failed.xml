@@ -5,6 +5,8 @@
     <classes>
       <class name="Khus.Khushbu">
         <methods>
+          <include name="GooglePixeldetails"/>
+          <include name="InCart"/>
           <include name="OpenCart"/>
         </methods>
       </class> <!-- Khus.Khushbu -->
