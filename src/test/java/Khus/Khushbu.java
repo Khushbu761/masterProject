@@ -21,7 +21,7 @@ public class Khushbu
         
         // Create a new ChromeDriver instance with the specified ChromeOptions
         WebDriver driver = new ChromeDriver(chromeOptions);
-		driver.get("http://43.205.230.7:3000/");
+		driver.get("http://3.110.143.11:3000/");
 
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//div[@class='container']//div[1]//div[1]//div[1]//a[1]")).click();
@@ -40,7 +40,7 @@ public class Khushbu
         // Create a new ChromeDriver instance with the specified ChromeOptions
         WebDriver driver = new ChromeDriver(chromeOptions);
 
-		driver.get("http://43.205.230.7:3000/");
+		driver.get("http://3.110.143.11:3000/");
 
 		Thread.sleep(3000);
 		//driver.findElement(By.xpath("//i[normalize-space()='my cart']")).click();
@@ -59,7 +59,7 @@ public class Khushbu
         // Create a new ChromeDriver instance with the specified ChromeOptions
         WebDriver driver = new ChromeDriver(chromeOptions);
 
-		driver.get("http://43.205.230.7:3000/");
+		driver.get("http://3.110.143.11:3000/");
 
 		Thread.sleep(3000);
 
