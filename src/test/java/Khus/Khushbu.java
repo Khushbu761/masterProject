@@ -66,7 +66,7 @@ public class Khushbu
 		driver.findElement(By.xpath("//i[normalize-space()='my cart']")).click();
 		String Actualresult = driver.getCurrentUrl();
 		System.out.println("Actual result : "+ Actualresult);
-           Assert.assertEquals(Actualresult,"http://43.205.230.7:3000/cart");
+           Assert.assertEquals(Actualresult,"http://3.110.143.11:3000/cart");
 		  
 
 	}
